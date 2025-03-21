@@ -1,0 +1,43 @@
+<!-- templates/result.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultados del Análisis</title>
+    <style>
+        .result-section { margin: 20px 0; padding: 15px; background: white; border-radius: 8px; }
+        .bad { color: #dc3545; }
+        .good { color: #28a745; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Resultados del Análisis</h1>
+        
+        <div class="result-section">
+            <h3>Prompt Original:</h3>
+            <p>{{ prompt }}</p>
+        </div>
+
+        <div class="result-section">
+            <h3>Análisis Básico:</h3>
+            <ul>
+                <li>Bien redactado: <span class="{{ 'good' if analysis.well_written else 'bad' }}">{{ analysis.well_written }}</span></li>
+                <li>Contenido inapropiado: <span class="{{ 'bad' if analysis.inappropriate_content else 'good' }}">{{ analysis.inappropriate_content }}</span></li>
+                <li>Mejoras sugeridas: {{ analysis.suggestions }}</li>
+            </ul>
+        </div>
+
+        <div class="result-section">
+            <h3>Mejoramiento Automático:</h3>
+            <p>{{ improved }}</p>
+        </div>
+
+        <div class="result-section">
+            <h3>Chequeo de Seguridad (Azure):</h3>
+            <pre>{{ azure }}</pre>
+        </div>
+
+        <a href="/">Nuevo análisis</a>
+    </div>
+</body>
+</html>
