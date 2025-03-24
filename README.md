@@ -20,16 +20,17 @@ A tool to optimize generative AI prompts using **OpenAI GPT-3.5**, **LangChain**
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-Set your OpenAI API Key:
+3. Set your OpenAI API Key:
    ```bash
    export OPENAI_API_KEY="your-secret-key"
-🖥 Usage
+
+## 🖥 Usage
 Run the app:
    ```bash
    python app.py
 Access the interface via your browser at http://localhost:7860.
 
-🌐 Hugging Face Deployment
+## 🌐 Hugging Face Deployment
 Create a new Space on Hugging Face.
 
 Upload the project files to your Space.
@@ -39,7 +40,7 @@ Add your API Key as a secret in the "Settings" tab.
 Done! Your optimizer will be live at:
 [YOUR_HUGGING_FACE_SPACE_LINK_HERE]
 
-📸 Screenshots
+## 📸 Screenshots
 Gradio Interface	Optimization Example
 [DESCRIPTION_IMAGE_1_LINK_HERE]	[DESCRIPTION_IMAGE_2_LINK_HERE]
 Replace with your image paths. Recommended size: 800x450px.
