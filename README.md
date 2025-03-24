@@ -30,18 +30,17 @@ Run the app:
    ```
 
 ## 🌐 Hugging Face Deployment
-Create a new Space on Hugging Face.
-
-Upload the project files to your Space.
-
-Add your API Key as a secret in the "Settings" tab.
-
-Done! Your optimizer will be live at:
+The system is live and ready for testing at:
 [https://huggingface.co/spaces/cgranados/SmartPrompt-AutoCorrect-Validation]
 
+This platform showcases the SmartPrompt AutoCorrect Validation system, allowing users to test its features in real time. 🚀
+
 ## 📸 Screenshots
-Gradio Interface	Optimization Example
-[DESCRIPTION_IMAGE_1_LINK_HERE]	[DESCRIPTION_IMAGE_2_LINK_HERE]
+Gradio Interface:
+[![image](https://github.com/user-attachments/assets/2efb0e47-6aa0-4a8f-a80c-e6d2d3caf5c9)]
+
+Optimization Example:
+![Uploading image.png…]()
 
 ## 📄 License
 This project is licensed under the MIT License.
