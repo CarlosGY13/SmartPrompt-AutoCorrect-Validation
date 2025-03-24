@@ -2,7 +2,7 @@
 [![Project Status](https://img.shields.io/badge/status-active-success)]()
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)]()
 [![License](https://img.shields.io/badge/license-MIT-green)]()
-[![Hugging Face](https://img.shields.io/badge/🤗-Spaces-yellow)]([YOUR_HUGGING_FACE_SPACE_LINK_HERE])
+[![Hugging Face](https://img.shields.io/badge/🤗-Spaces-yellow)]([https://huggingface.co/spaces/cgranados/SmartPrompt-AutoCorrect-Validation])
 
 A tool to optimize generative AI prompts using **OpenAI GPT-3.5**, **LangChain**, and **LangGraph**. Automatically enhances input quality and filters inappropriate content.
 
@@ -28,7 +28,6 @@ Run the app:
    ```bash
    python app.py
    ```
-Access the interface via your browser at http://localhost:7860.
 
 ## 🌐 Hugging Face Deployment
 Create a new Space on Hugging Face.
@@ -38,12 +37,11 @@ Upload the project files to your Space.
 Add your API Key as a secret in the "Settings" tab.
 
 Done! Your optimizer will be live at:
-[YOUR_HUGGING_FACE_SPACE_LINK_HERE]
+[https://huggingface.co/spaces/cgranados/SmartPrompt-AutoCorrect-Validation]
 
 ## 📸 Screenshots
 Gradio Interface	Optimization Example
 [DESCRIPTION_IMAGE_1_LINK_HERE]	[DESCRIPTION_IMAGE_2_LINK_HERE]
-Replace with your image paths. Recommended size: 800x450px.
 
 ## 📄 License
 This project is licensed under the MIT License.
