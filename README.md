@@ -45,6 +45,6 @@ Gradio Interface	Optimization Example
 [DESCRIPTION_IMAGE_1_LINK_HERE]	[DESCRIPTION_IMAGE_2_LINK_HERE]
 Replace with your image paths. Recommended size: 800x450px.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 © [2025] [Carlos Granados]
