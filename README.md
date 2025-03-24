@@ -28,6 +28,7 @@ A tool to optimize generative AI prompts using **OpenAI GPT-3.5**, **LangChain**
 Run the app:
    ```bash
    python app.py
+
 Access the interface via your browser at http://localhost:7860.
 
 ## 🌐 Hugging Face Deployment
