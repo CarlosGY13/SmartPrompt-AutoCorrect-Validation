@@ -11,7 +11,6 @@ A tool to optimize generative AI prompts using **OpenAI GPT-3.5**, **LangChain**
 - **Ethical content filters** for sensitive material.
 - User-friendly **Gradio interface**.
 - Easy deployment on **Hugging Face Spaces**.
-- Secure API Key management.
 
 ## 📦 Installation
 1. Clone the repository:
@@ -28,7 +27,7 @@ A tool to optimize generative AI prompts using **OpenAI GPT-3.5**, **LangChain**
 Run the app:
    ```bash
    python app.py
-
+   ```
 Access the interface via your browser at http://localhost:7860.
 
 ## 🌐 Hugging Face Deployment
