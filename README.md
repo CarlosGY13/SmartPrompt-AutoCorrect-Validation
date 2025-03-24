@@ -40,8 +40,8 @@ Gradio Interface:
 ![image](https://github.com/user-attachments/assets/c2e3a393-e947-4b19-83bb-a6b0b8c9e286)
 
 Optimization Example:
-[![image](https://github.com/user-attachments/assets/2efb0e47-6aa0-4a8f-a80c-e6d2d3caf5c9)]
+![image](https://github.com/user-attachments/assets/2efb0e47-6aa0-4a8f-a80c-e6d2d3caf5c9)
 
 ## 📄 License
 This project is licensed under the MIT License.
-© [2025] [Carlos Granados]
+© 2025 Carlos Granados
